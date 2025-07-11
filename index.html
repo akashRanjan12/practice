@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>❤ Cutie ❤</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="first-div">
+      <!-- a authentication love page where take a input and then shows the main division -->
+      <h1><span class="heart">❤</span> Cutie <span class="heart">❤</span></h1>
+      <form id="auth-form">
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter your name"
+          class="input-field"
+          required />
+        <p>Enter password of heart.</p>
+      </form>
+    </div>
+    <div class="second-div">
+      <h1>Welcome, Cutie <span class="heart">❤</span></h1>
+
+      <div class="container">
+        <div class="box box-1">
+          <img
+            src="materials/cutenessoverload.jpg"
+            alt="cutenessoverload pic"
+            height="550px"
+            class="reveal" />
+          <p class="reveal">
+            My heart is a special place just for you. Here, you can find all the
+            love and affection you deserve.
+          </p>
+        </div>
+        <div class="box box-2">
+          <img
+            src="materials/smile.jpg"
+            alt="cutenessoverload pic"
+            height="550px"
+            class="reveal" />
+          <p class="reveal">
+            Remember, you are loved beyond measure. Your happiness is my
+            priority, and I cherish every moment we share.
+          </p>
+        </div>
+        <div class="box box-3">
+          <img
+            src="materials/cute.jpg"
+            alt="cutenessoverload pic"
+            height="550px"
+            class="reveal" />
+          <p class="reveal">
+            If you ever feel down, just remember that you are my sunshine, and I
+            will always be here to brighten your day.
+          </p>
+        </div>
+        <div class="box box-4">
+          <img
+            src="materials/car.jpg"
+            alt="cutenessoverload pic"
+            height="550px"
+            class="reveal" />
+          <p class="reveal">
+            I want you to know that you are the most important person in my
+            life. Your happiness means everything to me, and I will always be
+            here to support you.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="logic.js"></script>
+    <script>
+      // scroll eff
+      document.addEventListener("DOMContentLoaded", function () {
+        const elements = document.querySelectorAll(".reveal");
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+              }
+            });
+          },
+          { threshold: 0.2 }
+        ); // Trigger when 20% of the element is visible
+
+        elements.forEach((el) => observer.observe(el));
+      });
+    </script>
+  </body>
+</html>
