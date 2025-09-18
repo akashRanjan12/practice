@@ -3,7 +3,7 @@ const firstDiv = document.querySelector(".first-div");
 const inputField = document.querySelector(".input-field");
 
 inputField.addEventListener("input", () => {
-  if (inputField.value.toLowerCase() === "ilysm") {
+  if (inputField.value.toLowerCase() === "reetopa bubun") {
     firstDiv.style.display = "none";
   }
 });
@@ -52,3 +52,21 @@ for (let i = 0; i < 30; i++) {
   icon.style.color = colors[Math.floor(Math.random() * colors.length)];
   document.body.appendChild(icon);
 }
+
+// scroll eff
+document.addEventListener("DOMContentLoaded", function () {
+  const elements = document.querySelectorAll(".reveal");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.2 }
+  ); // Trigger when 20% of the element is visible
+
+  elements.forEach((el) => observer.observe(el));
+});

@@ -10,6 +10,12 @@
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -35,158 +41,444 @@
         <pre>Enter password of heart.</pre>
       </form>
     </div>
-    <div class="second-div">
-      <h1>Welcome, Cutie <span class="heart">❤</span></h1>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="logo">My Eternal Love</div>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#love-story">Our Story</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#love-letters">Letters</a></li>
+          <li><a href="#promise">Promise</a></li>
+          <li><a href="#countdown">Countdown</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
 
-      <div class="container">
-        <div class="box box-1">
-          <img
-            src="materials/cutenessoverload.jpg"
-            alt="cutenessoverload pic"
-            height="550px"
-            class="reveal" />
-          <p class="reveal">
-            My heart is a special place just for you. Here, you can find all the
-            love and affection you deserve.
-          </p>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="floating-hearts" id="heartsContainer"></div>
+      <div class="container hero-content">
+        <h1>My Forever Love</h1>
+        <p>
+          Every day with you is a blessing I cherish. From the moment I wake up
+          to the second I fall asleep, you're the thought that fills my heart
+          with joy.
+        </p>
+        <div class="heart-icon">
+          <i class="fas fa-heart"></i>
         </div>
-        <div class="box box-2">
-          <img
-            src="materials/smile.jpg"
-            alt="cutenessoverload pic"
-            height="550px"
-            class="reveal" />
-          <p class="reveal">
-            Remember, you are loved beyond measure. Your happiness is my
-            priority, and I cherish every moment we share.
-          </p>
-        </div>
-        <div class="box box-3">
-          <img
-            src="materials/cute.jpg"
-            alt="cutenessoverload pic"
-            height="550px"
-            class="reveal" />
-          <p class="reveal">
-            If you ever feel down, just remember that you are my sunshine, and I
-            will always be here to brighten your day.
-          </p>
-        </div>
-        <div class="box box-4">
-          <img
-            src="materials/car.jpg"
-            alt="cutenessoverload pic"
-            height="550px"
-            class="reveal" />
-          <p class="reveal">
-            I want you to know that you are the most important person in my
-            life. Your happiness means everything to me, and I will always be
-            here to support you.
-          </p>
+        <div class="romantic-quote">
+          "I saw that you were perfect, and so I loved you. Then I saw that you
+          were not perfect and I loved you even more." – Angelita Lim
         </div>
       </div>
-    </div>
-    <div class="love-msg">
-      <div class="card">
-        <div class="wrap">
-          <div class="terminal">
-            <hgroup class="head">
-              <h2 class="title" style="font-family: 'lovely', cursive">
-                For you
-              </h2>
-              <button class="copy_toggle" tabindex="-1" type="button">
-                <svg
-                  width="16px"
-                  height="16px"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  stroke-linejoin="round"
-                  stroke-linecap="round"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  fill="none">
-                  <path
-                    d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"></path>
-                  <path
-                    d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path>
-                </svg>
-              </button>
-            </hgroup>
+    </section>
 
-            <div class="body">
-              <pre class="pre">          <code>-&nbsp;</code>
-          <code>radhe&nbsp;</code>
-          <code class="cmd" data-cmd="ami tomake bhalobasi"></code>
-        </pre>
+    <!-- Memory Photo Section -->
+    <section id="memory-photo">
+      <div class="container memory-container">
+        <img
+          src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+          alt="Our Special Memory"
+          class="memory-img" />
+        <p class="memory-caption">
+          This is how I always see you - beautiful, radiant, and full of life.
+          You are my sunshine on the cloudiest days.
+        </p>
+      </div>
+    </section>
+
+    <!-- Love Story Section -->
+    <section id="love-story">
+      <div class="container">
+        <h2 class="section-title">Our Love Story</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-date">June 12, 2020</div>
+              <h3>First Meeting</h3>
+              <p>
+                The day our eyes met and my heart skipped a beat. I knew you
+                were someone special.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-date">August 3, 2020</div>
+              <h3>First Date</h3>
+              <p>
+                Our first dinner together that lasted for hours. I didn't want
+                the night to end.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-date">October 20, 2020</div>
+              <h3>First "I Love You"</h3>
+              <p>
+                The moment we confessed our love under the stars. The most
+                magical night of my life.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-date">February 14, 2021</div>
+              <h3>First Valentine's</h3>
+              <p>
+                Our first Valentine's Day together, celebrating the love we
+                share.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-date">June 19, 2021</div>
+              <h3>Our First Anniversary</h3>
+              <p>
+                One year of love, laughter, and beautiful memories. I knew I
+                wanted to spend forever with you.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="third-div">
-      <div class="cards reveal">
-        <div class="circles"></div>
-        <div class="circles"></div>
-        <div class="card-inners">
-          <h2>We met on a dating site, it felt like fate from the start.</h2>
-          <a href="materials/ssboo.jpg" target="_self"
-            ><img src="materials/ssboo.jpg" alt="" height="150px"
-          /></a>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey">
+      <div class="container">
+        <h2 class="section-title">Our Journey Together</h2>
+        <div class="journey-container">
+          <div class="journey-card">
+            <i class="fas fa-heart"></i>
+            <h3>Adventures</h3>
+            <p>
+              From beach sunsets to mountain hikes, every moment with you is an
+              adventure.
+            </p>
+          </div>
+          <div class="journey-card">
+            <i class="fas fa-utensils"></i>
+            <h3>Food Explorations</h3>
+            <p>
+              Trying new cuisines and cooking together has been a delicious
+              journey.
+            </p>
+          </div>
+          <div class="journey-card">
+            <i class="fas fa-film"></i>
+            <h3>Movie Nights</h3>
+            <p>
+              Countless nights cuddled up watching movies, my favorite place to
+              be.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="cards reveal">
-        <div class="circles"></div>
-        <div class="circles"></div>
-        <div class="card-inners">
-          <h2>You twirled in the saree—and I forgot how to breathe.</h2>
-          <a href="materials/saree pic.jpg" target="_self"
-            ><img src="materials/saree pic.jpg" alt="" height="150px"
-          /></a>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <div class="container">
+        <h2 class="section-title">Our Memories</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="https://placehold.co/600x400/ffccd5/333333?text=Beach+Sunset"
+              alt="Beach Sunset" />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://placehold.co/600x400/ffccd5/333333?text=Mountain+Hike"
+              alt="Mountain Hike" />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://placehold.co/600x400/ffccd5/333333?text=Anniversary+Dinner"
+              alt="Anniversary Dinner" />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://placehold.co/600x400/ffccd5/333333?text=Christmas+Together"
+              alt="Christmas Together" />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://placehold.co/600x400/ffccd5/333333?text=Weekend+Getaway"
+              alt="Weekend Getaway" />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="https://placehold.co/600x400/ffccd5/333333?text=Date+Night"
+              alt="Date Night" />
+          </div>
         </div>
       </div>
-      <div class="cards reveal">
-        <div class="circles"></div>
-        <div class="circles"></div>
-        <div class="card-inners">
-          <h2>The deeper the mehndi, the deeper the love—lucky me.</h2>
-          <a href="materials/mehndi.jpg" target="_self"
-            ><img src="materials/mehndi.jpg" alt="" height="150px"
-          /></a>
+    </section>
+
+    <!-- Love Letters Section -->
+    <section id="love-letters">
+      <div class="container">
+        <h2 class="section-title">Love Letters</h2>
+        <div class="letters-container">
+          <div class="letter">
+            <p>My dearest,</p>
+            <p>
+              Every morning I wake up grateful for another day with you. Your
+              smile brightens my darkest days and your love completes me in ways
+              I never thought possible.
+            </p>
+            <p>
+              I still remember the first time I saw you - it was as if time
+              stood still. Your laughter is my favorite melody, and your touch
+              sends shivers down my spine.
+            </p>
+            <p>Forever yours,</p>
+            <div class="letter-date">June 15, 2023</div>
+          </div>
+          <div class="letter">
+            <p>My love,</p>
+            <p>
+              As I sit here thinking about us, I realize how much you've changed
+              my life for the better. You've shown me what true love means and I
+              fall for you more every day.
+            </p>
+            <p>
+              Your kindness, your passion, and the way you care for others
+              inspire me to be a better person. I'm the luckiest to have you by
+              my side.
+            </p>
+            <p>With all my heart,</p>
+            <div class="letter-date">April 2, 2023</div>
+          </div>
+          <div class="letter">
+            <p>My sweet angel,</p>
+            <p>
+              Today I was thinking about our future together, and it filled me
+              with so much excitement and happiness. I can't wait to build a
+              life with you, to grow old with you, and to cherish every moment
+              we have together.
+            </p>
+            <p>
+              You are my dream come true, the answer to prayers I never uttered,
+              and the missing piece I never knew I needed.
+            </p>
+            <p>Eternally yours,</p>
+            <div class="letter-date">May 20, 2023</div>
+          </div>
         </div>
       </div>
-      <div class="cards reveal">
-        <div class="circles"></div>
-        <div class="circles"></div>
-        <div class="card-inners">
-          <h2>
-            I swear, I pretend to fix my camera just to look at you longer.
-          </h2>
-          <a href="materials/vidcall.jpg" target="_self"
-            ><img src="materials/vidcall.jpg" alt="" height="150px"
-          /></a>
+    </section>
+
+    <!-- Promise Section -->
+    <section id="promise">
+      <div class="container">
+        <h2 class="section-title">My Promise to You</h2>
+        <div class="promise-container">
+          <p>I vow to always cherish and honor what we have together.</p>
+          <ul class="promise-list">
+            <li>
+              I promise to always support your dreams and be your biggest
+              cheerleader.
+            </li>
+            <li>
+              I promise to listen with an open heart and communicate with
+              honesty.
+            </li>
+            <li>
+              I promise to stand by you through life's challenges and celebrate
+              its joys.
+            </li>
+            <li>
+              I promise to keep our romance alive with surprises and thoughtful
+              gestures.
+            </li>
+            <li>I promise to love you more each day, forever and always.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section id="countdown">
+      <div class="container">
+        <h2 class="section-title">Our Anniversary Countdown</h2>
+        <div class="countdown-container">
+          <div class="countdown-item">
+            <div class="countdown-number" id="days">00</div>
+            <div class="countdown-label">Days</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="hours">00</div>
+            <div class="countdown-label">Hours</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="minutes">00</div>
+            <div class="countdown-label">Minutes</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="seconds">00</div>
+            <div class="countdown-label">Seconds</div>
+          </div>
+        </div>
+        <div class="anniversary-text">
+          Counting the moments until we celebrate another year of love on June
+          19th
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-content">
+        <div class="footer-logo">Forever Yours</div>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#love-story">Our Story</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#love-letters">Letters</a></li>
+          <li><a href="#promise">Promise</a></li>
+          <li><a href="#countdown">Countdown</a></li>
+        </ul>
+        <p>Made with ❤️ for my one and only</p>
+      </div>
+    </footer>
+
+    <!-- Birthday Popup -->
+    <div class="birthday-popup" id="birthdayPopup">
+      <div class="birthday-content">
+        <span class="birthday-close" id="closePopup">&times;</span>
+        <h2>Happy Birthday, My Love! 🎂</h2>
+        <p>
+          On this special day, I want you to know how incredibly blessed I am to
+          have you in my life. You bring so much joy, love, and happiness to my
+          world.
+        </p>
+        <p>May your day be as beautiful as you are!</p>
+        <div class="heart-icon">
+          <i class="fas fa-heart"></i>
         </div>
       </div>
     </div>
     <script src="logic.js"></script>
     <script>
-      // scroll eff
-      document.addEventListener("DOMContentLoaded", function () {
-        const elements = document.querySelectorAll(".reveal");
+      // Navigation toggle
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
 
-        const observer = new IntersectionObserver(
-          (entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                entry.target.classList.add("visible");
-              }
-            });
-          },
-          { threshold: 0.2 }
-        ); // Trigger when 20% of the element is visible
-
-        elements.forEach((el) => observer.observe(el));
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
       });
+
+      // Close menu when clicking on a link
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+        });
+      });
+
+      // Anniversary countdown - Set to June 19th
+      function updateCountdown() {
+        const currentYear = new Date().getFullYear();
+        let anniversaryDate = new Date(currentYear, 5, 19).getTime(); // June is month 5 (0-indexed)
+
+        // If June 19 has already passed this year, target next year
+        const now = new Date().getTime();
+        if (now > anniversaryDate) {
+          anniversaryDate = new Date(currentYear + 1, 5, 19).getTime();
+        }
+
+        const distance = anniversaryDate - now;
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerText = days
+          .toString()
+          .padStart(2, "0");
+        document.getElementById("hours").innerText = hours
+          .toString()
+          .padStart(2, "0");
+        document.getElementById("minutes").innerText = minutes
+          .toString()
+          .padStart(2, "0");
+        document.getElementById("seconds").innerText = seconds
+          .toString()
+          .padStart(2, "0");
+      }
+
+      setInterval(updateCountdown, 1000);
+      updateCountdown();
+
+      // Birthday popup - Show on page load (you can set a specific date condition)
+      const birthdayPopup = document.getElementById("birthdayPopup");
+      const closePopup = document.getElementById("closePopup");
+
+      // For demonstration, showing popup after 2 seconds
+      // In real use, you would check if today is her birthday
+      setTimeout(() => {
+        birthdayPopup.classList.add("show-popup");
+      }, 2000);
+
+      closePopup.addEventListener("click", () => {
+        birthdayPopup.classList.remove("show-popup");
+      });
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+
+      // Header background change on scroll
+      window.addEventListener("scroll", () => {
+        const header = document.querySelector("header");
+        if (window.scrollY > 50) {
+          header.style.background = "rgba(255, 255, 255, 0.95)";
+          header.style.boxShadow = "0 2px 10px rgba(0, 0, 0, 0.1)";
+        } else {
+          header.style.background = "rgba(255, 255, 255, 0.95)";
+          header.style.boxShadow = "none";
+        }
+      });
+
+      // Create floating hearts
+      function createHearts() {
+        const heartsContainer = document.getElementById("heartsContainer");
+        const heartIcons = ["❤", "💕", "💖", "💗", "💓", "💘"];
+
+        for (let i = 0; i < 25; i++) {
+          const heart = document.createElement("div");
+          heart.classList.add("heart");
+          heart.innerHTML =
+            heartIcons[Math.floor(Math.random() * heartIcons.length)];
+          heart.style.left = Math.random() * 100 + "vw";
+          heart.style.fontSize = Math.random() * 20 + 10 + "px";
+          heart.style.animationDuration = Math.random() * 5 + 5 + "s";
+          heart.style.animationDelay = Math.random() * 5 + "s";
+          heartsContainer.appendChild(heart);
+        }
+      }
+
+      createHearts();
     </script>
   </body>
 </html>
