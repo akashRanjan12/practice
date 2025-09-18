@@ -32,8 +32,8 @@
   width: 100%;
   position: fixed;
   background-color: skyblue;
-  display: flex;
-  /* display: none; */
+  /* display: flex; */
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -357,6 +357,7 @@ nav {
 }
 
 .hero-content h1 {
+  color: #590d22;
   font-size: 5rem;
   margin-bottom: 20px;
   animation: fadeInDown 1s ease;
@@ -364,13 +365,13 @@ nav {
 }
 
 .hero-content p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 30px;
   animation: fadeInUp 1s ease;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  /* text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); */
 }
 
 .heart-icon {
@@ -384,7 +385,7 @@ nav {
 .romantic-quote {
   font-style: italic;
   margin-top: 30px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   border-left: 3px solid var(--primary);
   padding-left: 20px;
   text-align: left;
@@ -857,7 +858,7 @@ footer {
   }
 
   .hero-content p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .timeline::after {
