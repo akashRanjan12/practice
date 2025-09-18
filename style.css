@@ -32,8 +32,7 @@
   width: 100%;
   position: fixed;
   background-color: skyblue;
-  /* display: flex; */
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -181,61 +180,6 @@
     transform: translateY(-30px) rotate(15deg);
   }
 }
-
-/* Responsive Design */
-/* @media (max-width: 992px) {
-  .fa-bars {
-    cursor: pointer;
-    display: block;
-  }
-  .nav-links {
-    display: none;
-  }
-  .timeline:after {
-    left: 31px;
-  }
-
-  .timeline-item {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
-
-  .timeline-item:nth-child(even) {
-    left: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  nav {
-    padding: 15px 20px;
-  }
-
-  .nav-links li {
-    margin: 5px 10px;
-  }
-
-  .hero h1 {
-    font-size: 3.5rem;
-  }
-
-  section {
-    padding: 70px 20px;
-  }
-
-  .countdown-item {
-    min-width: 110px;
-    padding: 15px;
-  }
-
-  .countdown-number {
-    font-size: 2.5rem;
-  }
-
-  .section-title {
-    font-size: 2.8rem;
-  }
-} */
 * {
   margin: 0;
   padding: 0;
