@@ -1,13 +1,3 @@
-// i'm going to check if the input fied get the ilysm input adn after click btn it hide the fist-div
-const firstDiv = document.querySelector(".first-div");
-const inputField = document.querySelector(".input-field");
-
-inputField.addEventListener("input", () => {
-  if (inputField.value.toLowerCase() === "reetopa bubun") {
-    firstDiv.style.display = "none";
-  }
-});
-
 // haart animation
 document.addEventListener("mousemove", function (e) {
   const heart = document.createElement("div");

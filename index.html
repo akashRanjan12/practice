@@ -373,6 +373,28 @@
     </div>
 
     <script>
+      // i'm going to check if the input fied get the ilysm input adn after click btn it hide the fist-div
+      const firstDiv = document.querySelector(".first-div");
+      const inputField = document.querySelector(".input-field");
+
+      inputField.addEventListener("input", () => {
+        if (inputField.value.toLowerCase() === "reetopa bubun") {
+          firstDiv.style.display = "none";
+        }
+
+        // Birthday popup - Show on page load (you can set a specific date condition)
+        const birthdayPopup = document.getElementById("birthdayPopup");
+        const closePopup = document.getElementById("closePopup");
+
+        // For demonstration, showing popup after 2 seconds
+        // In real use, you would check if today is her birthday
+        setTimeout(() => {
+          birthdayPopup.classList.add("show-popup");
+        }, 2000);
+      });
+      closePopup.addEventListener("click", () => {
+        birthdayPopup.classList.remove("show-popup");
+      });
       // Navigation toggle
       const menuBtn = document.querySelector(".menu-btn");
       const navLinks = document.querySelector(".nav-links");
@@ -424,20 +446,6 @@
 
       setInterval(updateCountdown, 1000);
       updateCountdown();
-
-      // Birthday popup - Show on page load (you can set a specific date condition)
-      const birthdayPopup = document.getElementById("birthdayPopup");
-      const closePopup = document.getElementById("closePopup");
-
-      // For demonstration, showing popup after 2 seconds
-      // In real use, you would check if today is her birthday
-      setTimeout(() => {
-        birthdayPopup.classList.add("show-popup");
-      }, 2000);
-
-      closePopup.addEventListener("click", () => {
-        birthdayPopup.classList.remove("show-popup");
-      });
 
       // Smooth scrolling for navigation links
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
